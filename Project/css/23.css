@@ -1,0 +1,311 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.header-bg {
+	overflow: hidden;
+	margin: 0;
+}
+
+.intro-bg {
+	position: relative;
+	width: 100%;
+	margin:-10.05% 0;
+}
+
+.logo {
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	width: 37px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+@-ms-viewport {
+  width: device-width ;
+} 
+.play , .play-link {
+	text-align:center;
+}
+
+.play , .play-link , .play-btn {
+	border-radius: 100%;
+}
+
+img.play-btn {
+	top: 25%;
+	position: absolute;
+	width: 80px;
+	height: auto;
+	transform: translate(-50%, -50%)
+}
+
+nav {
+	position: absolute;
+	top: 5%;
+	right: 15%;
+}
+
+nav li {
+	list-style: none;
+	float: left;
+	margin: 8px;
+	font-size: 10px;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 100%;
+}
+
+nav a {
+	text-decoration: none;
+	color: #989898;
+}
+
+nav .sign a {
+	color: #05bca9;
+}
+
+.active-tab a{
+	padding: 0px 2px 15px 2px;
+	border-bottom: 2px #05bca9 solid;
+	color: white;
+}
+
+nav a:hover, .sign a:hover {
+	color: white;
+}
+
+.s {
+	font-family: 'Playfair Display', serif;
+	color: red;
+	font-size: 16px;
+	color: #4a4a4a;
+	padding: 0 10px;
+	margin: 5px 1px;
+}
+
+.center-count {
+	display: grid;
+	place-items: center;
+}
+
+.center-count h4 {
+	position: absolute;
+	top: 235px;
+	font-family: 'Raleway', sans-serif;
+	color: #c1c1c1;
+	letter-spacing: 2px;
+}
+
+.center-count h1 {
+	position: absolute;
+	top: 255px;
+	font-family: 'Amiri', serif;
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+}
+
+.center-count .learn-btn {
+	position: absolute;
+	top: 420px;
+	text-decoration: none;
+	border: 3px solid white;
+	color: white;
+	padding: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13.5px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-radius: 30px;
+	padding: 20px 25px;
+}
+
+.about-app {
+	display: grid;
+	place-items: center;
+	line-height: 40px;
+}
+
+.about-app h5 {
+	margin-top: 8%;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+	color: #9ba0a7;
+}
+
+.about-app h1 {
+	font-family: 'Amiri', serif;
+	font-size: 50px;
+	color: #303030;
+}
+
+.about-app sub {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+.about-app p {
+	text-align: center;
+	color: #bcb4ad;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: 'Amiri', serif;
+	font-weight: lighter;
+}
+
+.about-app .space {
+	margin-top:2%;
+	width: 8%;
+	border-bottom: 3px solid #05bca9;
+}
+
+.about-app .app-design {
+	width: 20%;
+	height: auto;
+	margin-top:3%;
+}
+/*h4 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	top: 235px;
+	left: 50%;
+	color: #c1c1c1;
+	letter-spacing: 2px;
+	align-items: center;
+}
+
+/*
+.header-countainer {
+	display: grid;
+	place-items: center;
+}
+
+figure {
+	overflow:hidden;
+	margin:0;
+}
+
+.intro-bg {
+	position: relative;
+	width: 100%;
+	display: block;
+	margin:-9.88% 0;
+}
+/*
+.center {
+	
+	position: absolute;
+	top: 32.5px;
+	left: 197px;
+}
+
+.logo {
+	width: 37px;
+}
+
+
+/*
+.nav {
+	position: absolute;
+	top:10px;
+	left:5px;
+}
+-
+.list {
+	/*font-family: 'Ramabhadra', sans-serif;-
+	position: absolute;
+	top:10px;
+	right:197px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 3px:;
+	font-family: 'Lalezar';
+}
+
+.list li a {
+	display: block;
+	color: #989898;
+	padding: 10px 0px;
+	text-decoration: none;
+}
+
+.list li {
+	float: left;
+	padding: 6px 8px;
+	margin-top: 20px;
+}
+
+
+.list li a:hover {
+	color: white;
+}
+
+.list .active-tab a {
+	border-bottom: 3px #05bc91 solid;
+	color: white;
+}
+.list .sign a {
+	color: #05bc91;
+}
+
+.s {
+	font-size: 22px;
+	color: #4a4a4a;
+	font-weight: lighter;
+}
+
+.about-app {
+	background: white;
+	width:100%;
+	height: auto;
+	display: grid;
+	place-items: center;
+}
+
+.about-app h5 {
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+	color: #9ba0a7;
+}
+
+.about-app h1 {
+	font-family: 'Amiri', serif;
+	font-size: 50px;
+	color: #303030;
+}
+
+.about-app sub {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+.about-app p {
+	text-align: center;
+	color: #bcb4ad;
+}
+
+h4 {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	top: 235px;
+	left: 50%;
+	color: #c1c1c1;
+	letter-spacing: 2px;
+	align-items: center;
+}
+*/
